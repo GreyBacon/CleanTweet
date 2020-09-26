@@ -1,7 +1,7 @@
 import tweepy
 import tkinter as tk
 import twitauth
-import cleanup
+from cleanup import cleanup
 
 # Consumer key and secret referred to in twitauth.py
 consumer_key = twitauth.consumer_key
